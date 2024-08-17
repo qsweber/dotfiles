@@ -45,6 +45,9 @@
     "[python]": {
       "editor.formatOnType": true
     },
-    "editor.inlineSuggest.enabled": true
+    "editor.inlineSuggest.enabled": true,
+    "mypy-type-checker.args": [
+      "--strict"
+    ]
   }
   
