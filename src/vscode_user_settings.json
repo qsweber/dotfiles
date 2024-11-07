@@ -34,7 +34,6 @@
     "jupyter-notebook": "left"
   },
   "window.zoomLevel": 1,
-  "powermode.enabled": true,
   "editor.renderWhitespace": "none",
   "git.mergeEditor": false,
   "[html]": {
