@@ -1,53 +1,51 @@
 {
-    "window.title": "${rootName}/${activeEditorMedium}",
-    "files.exclude": {
-      ".yarn/releases/**": true,
-      "**/__pycache__": true,
-      "**/.DS_Store": true,
-      "**/.git": true,
-      "**/.hg": true,
-      "**/.svn": true,
-      "**/CVS": true,
-      "**/dist": true,
-      "**/node_modules": true
-    },
-    "search.exclude": {
-      "**/node_modules": true,
-      "**/bower_components": true,
-      "**/dist": true
-    },
-    "[json]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "workbench.editorAssociations": {
-      "*.ipynb": "jupyter-notebook"
-    },
-    "[typescriptreact]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "security.workspace.trust.untrustedFiles": "open",
-    "notebook.cellToolbarLocation": {
-      "default": "right",
-      "jupyter-notebook": "left"
-    },
-    "window.zoomLevel": 2,
-    "powermode.enabled": true,
-    "editor.renderWhitespace": "none",
-    "git.mergeEditor": false,
-    "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[jsonc]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[python]": {
-      "editor.formatOnType": true
-    },
-    "editor.inlineSuggest.enabled": true,
-    "mypy-type-checker.args": [
-      "--strict"
-    ]
-  }
-  
+  "window.title": "${rootName}/${activeEditorMedium}",
+  "files.exclude": {
+    ".yarn/releases/**": true,
+    "**/__pycache__": true,
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/CVS": true,
+    "**/dist": true,
+    "**/node_modules": true,
+    "**/htmlcov": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/dist": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "window.zoomLevel": 1,
+  "powermode.enabled": true,
+  "editor.renderWhitespace": "none",
+  "git.mergeEditor": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.formatOnType": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "eslint.run": "onSave"
+}
