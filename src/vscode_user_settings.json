@@ -47,5 +47,8 @@
     "editor.formatOnType": true
   },
   "editor.inlineSuggest.enabled": true,
-  "eslint.run": "onSave"
+  "eslint.run": "onSave",
+  "github.codespaces.defaultExtensions": [
+    "GitHub.copilot"
+  ]
 }
