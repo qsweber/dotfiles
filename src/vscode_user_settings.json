@@ -10,7 +10,9 @@
     "**/CVS": true,
     "**/dist": true,
     "**/node_modules": true,
-    "**/htmlcov": true
+    "**/htmlcov": true,
+    "**/.mypy_cache": true,
+    "**/.pytest_cache": true
   },
   "search.exclude": {
     "**/node_modules": true,
