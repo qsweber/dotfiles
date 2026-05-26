@@ -51,5 +51,13 @@
   "eslint.run": "onSave",
   "github.codespaces.defaultExtensions": [
     "GitHub.copilot"
-  ]
+  ],
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "editor.formatOnSave": true
 }

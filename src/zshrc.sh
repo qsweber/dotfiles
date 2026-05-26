@@ -24,10 +24,13 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-## direnv
+## direnv - loads .envrc files automatically
 eval "$(direnv hook zsh)"
 
-## go
+## bearcli - command line interface for Bear app
+alias bearcli='/Applications/Bear.app/Contents/MacOS/bearcli'
+
+## go utilities
 function gocov() {
     # Define some color codes
     GREEN="\e[32m"
