@@ -1,0 +1,14 @@
+{
+  "enabledPlugins": {
+    "personal-skills@qsweber-skills": true
+  },
+  "extraKnownMarketplaces": {
+    "qsweber-skills": {
+      "source": {
+        "source": "directory",
+        "path": "/Users/quinnweber/code/qsweber/skills"
+      }
+    }
+  },
+  "theme": "auto"
+}

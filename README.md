@@ -17,3 +17,9 @@ ln -s /Users/$USER/code/qsweber/dotfiles/src/vscode_user_settings.json /Users/$U
 ```
 ln -s /Users/$USER/code/qsweber/dotfiles/src/zshrc.sh /Users/$USER/.zshrc
 ```
+
+## Claude Code
+
+```
+ln -s /Users/$USER/code/qsweber/dotfiles/src/claude_settings.json /Users/$USER/.claude/settings.json
+```
