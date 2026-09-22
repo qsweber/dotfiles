@@ -1,5 +1,9 @@
 # Setup
 
+Run `./install.sh` to set up everything below in one go (safe to re-run;
+anything already in place is left alone, anything else in the way is
+backed up first).
+
 ## Gitignore
 
 ```
