@@ -10,5 +10,14 @@
       }
     }
   },
+  "permissions": {
+    "ask": [
+      "Bash(git push:*)",
+      "Bash(git commit:*)",
+      "Bash(gh pr create:*)",
+      "Bash(gh pr merge:*)",
+      "Bash(gh issue create:*)"
+    ]
+  },
   "theme": "auto"
 }
